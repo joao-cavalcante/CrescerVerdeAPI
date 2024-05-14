@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    background-image: url(../Imagens/fundo.jpg);
+    background-color: #f4f4f4; /* Bege ou outra cor de fundo */
+}
+
+nav {
+    background-color: #2c3e50; /* Agora a cor de fundo do cabeçalho é a mesma do rodapé */
+    color: #ecf0f1; /* Cor de texto no cabeçalho */
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+main {
+    width: 80%; /* Largura */
+    margin: auto; /* Centralizar na página */
+    padding: 20px; /* Espaçamento interno */
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: #ecf0f1; /* Cor de texto nos links */
+    padding: 1em;
+    margin: 0 10px;
+    font-size: 21px;
+}
+
+.hero {
+    text-align: center;
+    padding: 1em;
+    background-color: #27ae60; /* Verde para a seção de destaque */
+    color: #ecf0f1; /* Cor de texto na seção de destaque */
+}
+
+.hero2 {
+    text-align: center;
+    padding: 1em;
+    background-color: #27ae60; /* Verde para a seção de destaque */
+    color: #ecf0f1; /* Cor de texto na seção de destaque */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ecf0f1; /* Cor do texto do botão */
+    background-color: #3498db; /* Cor de fundo do botão */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #2c3e50; /* Verde escuro para o rodapé */
+    color: #ecf0f1; /* Cor de texto no rodapé */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.card {
+    background-color: rgba(0, 100, 0); /* Dark green with 75% opacity */
+    color: #fff; /* White text color */
+    /* Ajuste o tamanho da box conforme necessário */
+    max-width: 500px; /* Defina um valor que se adeque à sua página */
+    margin: auto; /* Centralize a box na página */
+    padding: 15px; /* Ajuste o espaçamento interno conforme necessário */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
