@@ -73,9 +73,9 @@ $db->close();
                         <img src="../Imagens/logo.png" alt="Logo" style="width: 220px;">
                 </div>
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link" href="/HTML/cursos.html">Cursos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/HTML/certificados.html">Certificados</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/HTML/login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./certificados.html">Certificados</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./login.html">Login</a></li>
                 </ul>                
             </div>
         </nav>
